@@ -11,3 +11,28 @@ h1 {
     font-size: 20;
     font-weight: 900;
 }
+
+.flexible-container {
+    display: flex;
+    margin-left: 0;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5%;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+}
